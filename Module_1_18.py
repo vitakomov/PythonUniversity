@@ -14,8 +14,7 @@ my_dict["Olya"] = 2003
 name_ = input("Enter your name: ")
 year_ = input("Enter your year of birth: ")
 while not year_.isdigit: year_ = input("Enter your YEAR of birth in digits: ")
-year_ = int(year_)
-my_dict[name_] = year_
+my_dict[name_] = int(year_)
 print("Deleting Petya:",my_dict.pop("Petya"))
 print("Edited dictionary:", my_dict)
 
