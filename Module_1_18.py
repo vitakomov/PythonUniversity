@@ -27,7 +27,7 @@ discard_ = input("Enter data to delete: ")
 if discard_.isdigit(): discard_ = int(discard_)
 elif is_float_check(discard_): discard_ = float(discard_)
 if discard_ in my_set: my_set.remove(discard_)
-else: print("Data not in set")
+else: print("Data is not in set")
 print("Modified set: ",my_set)
 
 
