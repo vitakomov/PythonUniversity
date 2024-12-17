@@ -1,5 +1,5 @@
 def input_number(count_):
-    input_str = str("Enter a number " + str(count_) + ":")
+    input_str = str("Enter a number " + str(count_) + ":" + " ")
     number_ = input(input_str)
     while not number_.isdigit(): number_ = input("Wrong input, please try again: ")
     return number_
