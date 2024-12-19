@@ -5,7 +5,8 @@ while num < len(my_list):
         break
     elif my_list[num] == 0:
         continue
-    else: print(my_list[num])
+    else:
+        print(my_list[num])
     num += 1
 #Понимаю, что по условиям задачи требуется while и continue, сделал решение с ними
 #Но для вариант без continue и с циклом for из следующего урока мне кажется более правильный
